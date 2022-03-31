@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    color: white;
+}
+
+body{
+    padding: 1.25rem;
+    background-color: rgb(36, 34, 34);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.container{
+    margin: 2em auto;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.container .main-sec {
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    padding: 2rem;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+.container .main-sec h1{
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.container .main-sec input{
+    font-weight: 800;
+    font-size: 95px;
+    background: transparent;
+    border: none;
+    max-width: 300px;
+    text-align: center;
+    outline: none;
+}
+
+.container .main-sec input:active{
+    border: none;
+}
+
+.container .result-sec {
+    background: #1F2937;
+    padding: 2rem;
+    text-align: center;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.container .result-sec h3{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.container .result-sec p{
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #D2D2D2;
+}
+
+.container .result-sec h3:first-of-type{
+    margin-top: 0.5rem;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(min-width: 600px){
+    .container{
+        width: 550px;
+    }    
+}

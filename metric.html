@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;600;700&family=Open+Sans:wght@300&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="metric.css">
+    <title>Metric/Imperial Unit Conversion</title>
+</head>
+<body>
+    <div class="container">
+        <section class="main-sec">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" placeholder="0" id="user-input" oninput="change()">
+        </section>
+        <section class="result-sec">
+            <div>
+                <h3>Length (Meter/Feet)</h3>
+                <p><span id="user-input-1">0</span> meters = <span id="feet-result">0.000</span> feet | <span id="user-input-4">0</span> feet = <span id="metre-result">0.000</span> meters</p>
+            </div>
+            <div>
+                <h3>Volume (Liters/Gallons)</h3>
+                <p><span id="user-input-2">0</span> liters = <span id="gallon-result">0.000</span> gallons | <span id="user-input-5">0</span> gallons = <span id="litre-result">0.000</span> liters</p>
+            </div>
+            <div>
+                <h3>Mass (Kilograms/Pounds)</h3>
+                <p><span id="user-input-3">0</span> kilos = <span id="pound-result">0.000</span> pounds | <span id="user-input-6">0</span> pounds = <span id="kilo-result">0.000</span> kilos</p>
+            </div>
+        </section>
+    </div>
+    <div class="attribution">
+        Coded by <a href="https://github.com/SahilDahekar/nft-preview-card-component.git">Sahil Dahekar</a>.
+    </div>
+    <script src="metric.js"></script>
+</body>
+</html>
